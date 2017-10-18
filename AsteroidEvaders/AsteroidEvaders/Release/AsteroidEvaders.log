@@ -1,13 +1,32 @@
-﻿  AsteroidSpawner.cpp
+﻿  Asteroid.cpp
+  AsteroidSpawner.cpp
 AsteroidSpawner.cpp(8): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
 AsteroidSpawner.cpp(9): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
 AsteroidSpawner.cpp(10): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 AsteroidSpawner.cpp(21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 AsteroidSpawner.cpp(36): warning C4018: '<': signed/unsigned mismatch
 AsteroidSpawner.cpp(48): warning C4018: '<': signed/unsigned mismatch
+  Game.cpp
+  GameObject.cpp
+GameObject.cpp(26): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+GameObject.cpp(27): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+GameObject.cpp(29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+GameObject.cpp(43): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+GameObject.cpp(44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+GameObject.cpp(58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+GameObject.cpp(59): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+GameObject.cpp(118): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+GameObject.cpp(120): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+GameObject.cpp(125): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Laser.cpp
+  Player.cpp
+Player.cpp(24): warning C4244: '/=': conversion from 'double' to 'float', possible loss of data
+Player.cpp(25): warning C4244: '/=': conversion from 'double' to 'float', possible loss of data
   Generating code
-  1 of 299 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+d:\jonathan_segal\documents\github\asteroidevaders2\asteroidevaders\asteroidevaders\gameobject.cpp(102): warning C4715: 'GameObject::getPosition': not all control paths return a value
+  28 of 337 functions ( 8.3%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    12 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  AsteroidEvaders.vcxproj -> D:\ben_humphries\Documents\C++ Programs\AsteroidEvaders\Release\AsteroidEvaders.exe
+  AsteroidEvaders.vcxproj -> D:\Jonathan_Segal\Documents\GitHub\AsteroidEvaders2\AsteroidEvaders\Release\AsteroidEvaders.exe
+  AsteroidEvaders.vcxproj -> D:\Jonathan_Segal\Documents\GitHub\AsteroidEvaders2\AsteroidEvaders\Release\AsteroidEvaders.pdb (Full PDB)
