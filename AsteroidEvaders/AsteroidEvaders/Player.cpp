@@ -37,8 +37,8 @@ void Player::applyConstraints(float & posX, float & posY) {
 
 	sf::Vector2u size = window.getSize();
 
-	maxX = size.x - width;
-	minX = 0;
+	maxX = size.x - width/2;
+	minX = width/2;
 	maxY = size.y - height;
 	minY = size.y - height - 100;
 
