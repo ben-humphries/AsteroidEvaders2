@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AsteroidEvaders", "AsteroidEvaders\AsteroidEvaders.vcxproj", "{F011FE2F-3E79-434D-B5D9-DAF0EACB0E8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F011FE2F-3E79-434D-B5D9-DAF0EACB0E8B}.Debug|x64.ActiveCfg = Debug|x64
+		{F011FE2F-3E79-434D-B5D9-DAF0EACB0E8B}.Debug|x64.Build.0 = Debug|x64
+		{F011FE2F-3E79-434D-B5D9-DAF0EACB0E8B}.Debug|x86.ActiveCfg = Debug|Win32
+		{F011FE2F-3E79-434D-B5D9-DAF0EACB0E8B}.Debug|x86.Build.0 = Debug|Win32
+		{F011FE2F-3E79-434D-B5D9-DAF0EACB0E8B}.Release|x64.ActiveCfg = Release|x64
+		{F011FE2F-3E79-434D-B5D9-DAF0EACB0E8B}.Release|x64.Build.0 = Release|x64
+		{F011FE2F-3E79-434D-B5D9-DAF0EACB0E8B}.Release|x86.ActiveCfg = Release|Win32
+		{F011FE2F-3E79-434D-B5D9-DAF0EACB0E8B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A786121-5DED-40A8-817C-280098A81A0C}
+	EndGlobalSection
+EndGlobal
