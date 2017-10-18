@@ -27,13 +27,13 @@ public:
 protected:
 	sf::RenderWindow & window;
 	float width, height;
-
+	sf::Sprite sprite;
+	AnimatedSprite animatedSprite;
 
 private:
 	std::string dir;
 	sf::Texture texture;
-	sf::Sprite sprite;
-	AnimatedSprite animatedSprite;
+	
 
 	bool animated;
 	bool isLoaded;
