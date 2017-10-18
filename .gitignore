@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+*.pdb
+AsteroidEvaders/Release/AsteroidEvaders.ipdb
+*.iobj
+AsteroidEvaders/AsteroidEvaders/Release/vc141.pdb
+*.tlog
+AsteroidEvaders/AsteroidEvaders/Release/AsteroidEvaders.tlog/AsteroidEvaders.lastbuildstate
+*.log
+*.ipch
+*.log
+*.opendb
+AsteroidEvaders/.vs/AsteroidEvaders/v15/Browse.VC.db
+*.suo

@@ -17,7 +17,7 @@ AsteroidSpawner::~AsteroidSpawner()
 
 void AsteroidSpawner::update(int playerHealth, int playerScore, float dt) {
 	
-	float asteroidFrequency = 2 + (float)playerScore / 1000; //1 asteroid per second + another asteroid per second for every 1000 points.
+	float asteroidFrequency = 100 + (float)playerScore / 1000; //1 asteroid per second + another asteroid per second for every 1000 points.
 	float percentGreen = 0.1 * (float)playerScore / 10000; //10% green asteroids plus another 10% for each 1000 points.
 
 	if (currentSpawnTime >= 1 / asteroidFrequency) {
