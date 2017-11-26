@@ -16,11 +16,13 @@ public:
 	virtual void playAnimatedSprite(float speed, int numCycles);
 	virtual void playAnimatedSprite(float speed);
 
+	virtual void setSpriteColor(int r, int g, int b, int a);
+
 	virtual void draw();
 	virtual void setPosition(float x, float y);
 	virtual void rotate(float degrees);
 	virtual void setScale(int x, int y);
-	virtual bool isColliding(GameObject g);
+	virtual bool isColliding(GameObject * g);
 	virtual sf::Vector2f getPosition();
 
 

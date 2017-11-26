@@ -22,6 +22,9 @@ public:
 	sf::Vector2f getPosition();
 	void setScale(float x, float y);
 
+	void setColor(int r, int g, int b, int a);
+
+
 private:
 
 	AnimationState animationState;

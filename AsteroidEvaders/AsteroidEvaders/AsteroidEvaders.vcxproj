@@ -133,11 +133,13 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="Laser.cpp" />
+    <ClCompile Include="Light.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MainMenu.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="ScrollingBackground.cpp" />
     <ClCompile Include="SplashScreen.cpp" />
+    <ClCompile Include="UI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AnimatedSprite.h" />
@@ -146,10 +148,12 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="Laser.h" />
+    <ClInclude Include="Light.h" />
     <ClInclude Include="MainMenu.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="ScrollingBackground.h" />
     <ClInclude Include="SplashScreen.h" />
+    <ClInclude Include="UI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

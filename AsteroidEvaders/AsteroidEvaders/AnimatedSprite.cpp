@@ -77,6 +77,12 @@ void AnimatedSprite::setScale(float x, float y) {
 
 	currentSprite.setScale(x, y);
 }
+void AnimatedSprite::setColor(int r, int g, int b, int a) {
+	for (int i = 0; i < sprites.size(); i++) {
+		sprites.at(i).setColor(sf::Color(r, g, b, a));
+	}
+	currentSprite.setColor(sf::Color(r, g, b, a));
+}
 void AnimatedSprite::draw(sf::RenderWindow & window) {
 
 	if (animationState == Playing) {

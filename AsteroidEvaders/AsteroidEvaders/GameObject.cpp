@@ -69,6 +69,15 @@ void GameObject::playAnimatedSprite(float speed) {
 	animatedSprite.play(speed);
 }
 
+void GameObject::setSpriteColor(int r, int g, int b, int a) {
+	if (animated) {
+		animatedSprite.setColor(r, g, b, a);
+	}
+	else {
+		sprite.setColor(sf::Color(r, g, b, a));
+	}
+}
+
 void GameObject::draw() {
 
 	if (isLoaded) {
@@ -128,16 +137,18 @@ void GameObject::setScale(int x, int y) {
 
 }
 
-bool GameObject::isColliding(GameObject g) {
+bool GameObject::isColliding(GameObject * g) {
 
-	sf::Vector2f gPos = g.getPosition();
-	sf::Vector2f pos = getPosition();
+	sf::Vector2f gPos = g->getPosition();
+	sf::Vector2f pos = this->getPosition();
+	
+	
 
 	//dont even try to figure out what's going on here
-	if (gPos.x <= pos.x && pos.x <= gPos.x + g.width 
+	if (gPos.x <= pos.x && pos.x <= gPos.x + g->width 
 		|| pos.x <= gPos.x && gPos.x <= pos.x + width) {
 
-		if (gPos.y <= pos.y && pos.y <= gPos.y + g.height
+		if (gPos.y <= pos.y && pos.y <= gPos.y + g->height
 			|| pos.y <= gPos.y && gPos.y <= pos.y + height) {
 
 			return true;

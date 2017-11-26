@@ -7,7 +7,6 @@ void showSplashScreen();
 
 int main()
 {
-	//test
 	showSplashScreen();
 	Game::Start();
 

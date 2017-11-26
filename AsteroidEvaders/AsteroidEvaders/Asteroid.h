@@ -7,7 +7,6 @@ public:
 	~Asteroid();
 
 	void update(float dt);
-	bool checkCollision(GameObject target);
 
 private:
 

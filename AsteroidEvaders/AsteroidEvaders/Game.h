@@ -1,12 +1,17 @@
 #pragma once
 #include "SFML/Window.hpp"
 #include "SFML/Graphics.hpp"
+#include "Light.h"
 
 class Game
 {
 
 public:
 	static void Start();
+
+	static sf::RenderWindow window;
+
+	static std::vector<Light> lights;
 
 private:
 	static void Update();
@@ -19,7 +24,7 @@ private:
 	enum GameState {Uninitialized, Menu, Running, Paused, Exiting};
 
 	static GameState gameState;
-	static sf::RenderWindow window;
+
 
 	static int width;
 	static int height;
